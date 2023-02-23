@@ -1,4 +1,5 @@
-/**
+package src;
+ /**
  * Alphabetize Word - An example class for assignment: Exercise - Word Compare
  * Copyright 2023 Howard Community College
  *
