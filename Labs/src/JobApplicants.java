@@ -72,7 +72,7 @@ public class JobApplicants {
                         .append("Dear ").append(title).append(" ").append(lastName).append(",\n\n");
 
                 switch (status) {
-                    case "Hire":
+                    case "Hired":
                         messageApplicants.append("Congratulations! We are delighted to offer you the position of ")
                                 .append(position).append(". Please let us know if you accept this offer.\n");
                         break;
@@ -81,7 +81,7 @@ public class JobApplicants {
                                 .append(position).append(". WWe'd like to schedule an interview with you.\n")
                                 .append("Please let us know when you are available so that we can schedule a time that is convenient for you..\n");
                         break;
-                    case "Reject":
+                    case "Rejected":
                         messageApplicants.append("Thank you for applying for the position of ")
                                 .append(position).append(". Unfortunately, we have decided not to proceed with your application..\n")
                                 .append("We appreciate your interest in our company and wish you the best of luck in your job search.\n");
